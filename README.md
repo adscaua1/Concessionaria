@@ -1,2 +1,2 @@
 # Concessionaria
-site de vendas de viculos
+site de vendas de veículos

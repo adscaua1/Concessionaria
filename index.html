@@ -72,17 +72,6 @@
     </main>
 
     <script src="./js/api-car.js"></script>
-    <script>
-        // Chama a função do api.js
-        getBrands().then(marcas => {
-            const ul = document.getElementById("lista-marcas");
-            marcas.forEach(marca => {
-                const li = document.createElement("li");
-                li.textContent = marca.name;
-                ul.appendChild(li);
-            });
-        });
-    </script>
 </body>
 
 </html>
